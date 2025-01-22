@@ -3,7 +3,7 @@
 Welcome to the **Cybersecurity Projects** repository! 🚀 Here, you’ll find all the cybersecurity projects I’ve worked on to enhance security knowledge and practices. Whether it’s about securing web applications 🕸️ or developing advanced tools 🔧, this repository is the go-to place for showcasing my cybersecurity journey.  
 
 ## 📂 Projects  
-
+###Pending 🟡
 Each project is organized in its own **branch** for better clarity and version control. To explore a specific project, switch to the respective branch.  
 
 ### 1️⃣ **Network Vulnerability Scanner** 🛡️  
