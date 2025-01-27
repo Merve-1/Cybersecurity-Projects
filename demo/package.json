@@ -7,5 +7,8 @@
   },
   "author": "Merve",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
 }
