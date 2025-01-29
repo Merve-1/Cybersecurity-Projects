@@ -25,7 +25,7 @@ This project is a Haskell-based network port scanner that:
 
 1️⃣ **Clone the repository:**
 ```sh
-git clone https://github.com/your-repo-link.git
+git clone https://github.com/Merve-1/Cybersecurity-Projects/tree/Network-Vulnerability-Scanner
 cd networkScan
 ```
 
