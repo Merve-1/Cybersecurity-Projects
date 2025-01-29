@@ -24,6 +24,7 @@ This project is a Haskell-based network port scanner that:
 ### **📦 Setup Steps**
 
 1️⃣ **Clone the repository:**
+
 Click on Download Zip
 ```sh
 cd networkScan
