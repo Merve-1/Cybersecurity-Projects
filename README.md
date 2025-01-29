@@ -1,33 +1,39 @@
-# 🔐 Cybersecurity Projects Repository  
+# **🔍 Haskell Network Vulnerability Scanner**
 
-Welcome to the **Cybersecurity Projects** repository! 🚀 Here, you’ll find all the cybersecurity projects I’ve worked on to enhance security knowledge and practices. Whether it’s about securing web applications 🕸️ or developing advanced tools 🔧, this repository is the go-to place for showcasing my cybersecurity journey.  
+## **📌 Brief Overview**
+This project is a Haskell-based network port scanner that:
+- **Scans open ports** on a specified host.
+- **Performs concurrent scanning** for efficiency.
+- **Checks firewall rules** for unauthorized open ports.
+- **Simulates IDS/IPS attacks** by sending test traffic.
 
-## 📂 Projects  
-
-Each project is organized in its own **branch** for better clarity and version control. To explore a specific project, switch to the respective branch.  
-
-### 1️⃣ **Network Vulnerability Scanner** 🛡️  
-- **Branch:** `network-vulnerability-scanner`  
-A fast and efficient network vulnerability scanner written in **Haskell**. This project is designed to:  
-- 🔍 Identify open ports.  
-- 🛠️ Detect common vulnerabilities.  
-- 📈 Generate detailed reports.  
-
-💡 *Why Haskell?* Its strong type system and functional nature ensure robustness and precision in vulnerability scanning.  
-
-### 2️⃣ **Secure Web Application** 🌐  
-- **Branch:** `secure-web-application`  
-Built with the **MEAN stack** (MongoDB, Express.js, Angular, and Node.js), this web application is focused on:  
-- ✅ Implementing secure authentication.  
-- 🔒 Enforcing data encryption for user-sensitive information.  
-- 🚧 Ensuring protection against common vulnerabilities like XSS, CSRF, and SQL injection.  
-
-💡 *Objective:* To demonstrate secure web development practices while maintaining a user-friendly experience.  
+📌 **Detailed Code Explanation:** [Notion Link](https://www.notion.so/Haskell-Network-Vulnerability-Scanner-1897a1b71e4180369b76d26eecbe3b6e?pvs=4)
 
 ---
 
-## 🚀 Future Plans  
-Stay tuned for more exciting projects, including:  
-- 🧪 Advanced penetration testing tools.  
-- 🔍 Real-time threat monitoring systems.  
-- 💾 Secure file storage applications.  
+## **🚀 Installation & Setup**
+
+### **Prerequisites**
+- Haskell and `cabal` installed.
+- Administrative privileges to run port scanning.
+- Apache server running (for testing port 80).
+
+### **📦 Setup Steps**
+
+1️⃣ **Clone the repository:**
+```sh
+git clone https://github.com/your-repo-link.git
+cd networkScan
+```
+
+2️⃣ **Initialize & Build the Project:**
+```sh
+cabal init  # (Only needed if setting up a new project)
+cabal build
+```
+
+3️⃣ **Run the Scanner:**
+```sh
+sudo cabal run
+```
+
