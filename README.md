@@ -10,10 +10,8 @@ This project is a Haskell-based network port scanner that:
 📌 **Detailed Code Explanation:** [Notion Link](https://www.notion.so/Haskell-Network-Vulnerability-Scanner-1897a1b71e4180369b76d26eecbe3b6e?pvs=4)
 
 ---
-## **🚀 Preview**
-
+## **📸 Preview**
 ![demo](https://github.com/user-attachments/assets/77f2b613-0966-4f7c-95ee-aa5f6132ac16)
-
 ---
 
 ## **🚀 Installation & Setup**
