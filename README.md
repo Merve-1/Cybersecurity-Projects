@@ -63,18 +63,18 @@ Using the **STRIDE** model, we categorize threats into:
 ### **5️⃣ Mitigate and Implement Security Controls**
 - **Mitigation strategies** will be applied based on priority.
 - Security controls include:
-  - **Input Validation** to prevent **SQL Injection & XSS**.
-  - **Authentication Hardening** with **bcrypt** for password hashing.
-  - **Access Controls** to enforce **least privilege principles**.
-  - **Logging & Monitoring** for better **auditing and threat detection**.
+    - **Input Validation** to prevent **SQL Injection & XSS**.
+    - **Authentication Hardening** with **bcrypt** for password hashing.
+    - **Access Controls** to enforce **least privilege principles**.
+    - **Logging & Monitoring** for better **auditing and threat detection**.
 
 - **📌 Secure Coding Practices (OWASP)**
 ✅ The **OWASP Secure Coding Practices Checklist** :
-- **Proper authentication & session management**
-- **Secure API design**
-- **Robust cryptographic storage**
-- **Prevention of injection attacks (SQL/XSS)**
-- **Error handling & security logging**
+    - **Proper authentication & session management**
+    - **Secure API design**
+    - **Robust cryptographic storage**
+    - **Prevention of injection attacks (SQL/XSS)**
+    - **Error handling & security logging**
 
 ### **6️⃣ Test & Continuously Improve Security**
 - **Regular penetration testing** will be performed.
