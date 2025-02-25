@@ -68,8 +68,7 @@ Using the **STRIDE** model, we categorize threats into:
     - **Access Controls** to enforce **least privilege principles**.
     - **Logging & Monitoring** for better **auditing and threat detection**.
 
-- **📌 Secure Coding Practices (OWASP)**
-✅ The **OWASP Secure Coding Practices Checklist** :
+- **📌 OWASP Secure Coding Practices Checklist)**
     - **Proper authentication & session management**
     - **Secure API design**
     - **Robust cryptographic storage**
