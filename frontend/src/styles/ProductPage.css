@@ -1,0 +1,57 @@
+/* Center the main container */
+.product-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background: #f9f9f9;
+}
+
+/* Style input fields */
+.product-container input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Style buttons */
+.product-container button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Add specific colors to buttons */
+.product-container button:first-of-type {
+    background: #28a745;
+    color: white;
+}
+
+.product-container button:last-of-type {
+    background: #007bff;
+    color: white;
+}
+
+/* Style the product list */
+.product-list {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.product-list li {
+    list-style: none;
+    padding: 10px;
+    background: white;
+    margin: 5px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
