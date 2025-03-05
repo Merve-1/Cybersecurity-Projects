@@ -21,7 +21,6 @@ npm install
 ```sh
 node server.js
 ```
-Server will start on **http://localhost:3000**.
 
 ---
 
