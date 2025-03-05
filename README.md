@@ -1,33 +1,28 @@
-# 🔐 Cybersecurity Projects Repository  
+# 🚨 Vulnerable Backend for Snyk Testing
 
-Welcome to the **Cybersecurity Projects** repository! 🚀 Here, you’ll find all the cybersecurity projects I’ve worked on to enhance security knowledge and practices. Whether it’s about securing web applications 🕸️ or developing advanced tools 🔧, this repository is the go-to place for showcasing my cybersecurity journey.  
+## 📌 Overview
+This is a **deliberately vulnerable** Node.js (Express.js) backend designed for **Snyk security testing**. The code contains **multiple critical vulnerabilities**, including **NoSQL Injection, SQL Injection, Cross-Site Scripting (XSS), Command Injection, and more**.
 
-## 📂 Projects  
-
-Each project is organized in its own **branch** for better clarity and version control. To explore a specific project, switch to the respective branch.  
-
-### 1️⃣ **Network Vulnerability Scanner** 🛡️  
-- **Branch:** `network-vulnerability-scanner`  
-A fast and efficient network vulnerability scanner written in **Haskell**. This project is designed to:  
-- 🔍 Identify open ports.  
-- 🛠️ Detect common vulnerabilities.  
-- 📈 Generate detailed reports.  
-
-💡 *Why Haskell?* Its strong type system and functional nature ensure robustness and precision in vulnerability scanning.  
-
-### 2️⃣ **Secure Web Application** 🌐  
-- **Branch:** `secure-web-application`  
-Built with the **MEAN stack** (MongoDB, Express.js, Angular, and Node.js), this web application is focused on:  
-- ✅ Implementing secure authentication.  
-- 🔒 Enforcing data encryption for user-sensitive information.  
-- 🚧 Ensuring protection against common vulnerabilities like XSS, CSRF, and SQL injection.  
-
-💡 *Objective:* To demonstrate secure web development practices while maintaining a user-friendly experience.  
+> ⚠ **Warning:** This project is for **educational purposes only**. Do **not** deploy it on a production server.
 
 ---
 
-## 🚀 Future Plans  
-Stay tuned for more exciting projects, including:  
-- 🧪 Advanced penetration testing tools.  
-- 🔍 Real-time threat monitoring systems.  
-- 💾 Secure file storage applications.  
+### **Installation**
+```sh
+# Clone the repository
+git clone https://github.com/yourusername/vulnerable-backend.git
+cd vulnerable-backend
+
+# Install dependencies
+npm install
+```
+
+### **Run the Server**
+```sh
+node server.js
+```
+Server will start on **http://localhost:3000**.
+
+---
+
+## 🚀 Exploiting the Vulnerabilities
