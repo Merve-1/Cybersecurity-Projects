@@ -1,0 +1,39 @@
+{
+  "messages": [
+    {
+      "text": "🎁 Congrats! You've won a free gift card. Click here and enter your account password to claim it within 10 minutes!",
+      "answer": "phishing",
+      "why": "Free prize + urgency ('10 minutes') + asks for your password directly. Classic phishing pattern."
+    },
+    {
+      "text": "Hey, it's Mom. Don't forget you have practice at 5pm today, see you after school!",
+      "answer": "safe",
+      "why": "No links, no urgency, no request for personal info — just a normal message from someone you know."
+    },
+    {
+      "text": "⚠️ Your school account will be PERMANENTLY DELETED unless you verify your identity now: totally-legit-school-login.com",
+      "answer": "phishing",
+      "why": "Scare tactic + fake urgency + a suspicious link that isn't your real school's website."
+    },
+    {
+      "text": "Your game update is ready! Open the game app from your home screen to install it.",
+      "answer": "safe",
+      "why": "No suspicious link, no request for passwords — updates normally happen inside the app itself, not through a message."
+    },
+    {
+      "text": "Hi, this is tech support. We noticed unusual activity. Reply with your username and password so we can secure your account immediately.",
+      "answer": "phishing",
+      "why": "Real support teams NEVER ask for your password. This is impersonation + urgency."
+    },
+    {
+      "text": "Reminder from your teacher: homework is due Friday. Check the class portal you already use for details.",
+      "answer": "safe",
+      "why": "References a portal you already know and trust, no links to click, no personal info requested."
+    },
+    {
+      "text": "You're the 1,000,000th visitor! 🎉 Click NOW to claim your free phone before this offer disappears forever!",
+      "answer": "phishing",
+      "why": "Too-good-to-be-true prize + extreme urgency ('disappears forever') = classic bait."
+    }
+  ]
+}
