@@ -1,7 +1,7 @@
 # 🕵️ Phishing Detective
 
 A simple terminal game that teaches you how to spot phishing messages.
-Built for the "Introduction to Cyber Security" session — no coding
+Built for the "Introduction to Cyber Security" session, no coding
 experience needed to play, and no external libraries needed to run.
 
 ## What it does
